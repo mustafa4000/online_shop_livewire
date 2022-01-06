@@ -27,3 +27,4 @@ Route::get('/BelanjaUser', \App\Http\Livewire\BelanjaUser::class);
 
 // api ongkir
 Route::get('/TambahOngkir/{id}', \App\Http\Livewire\TambahOngkir::class);
+Route::get('/bayar', \App\Http\Livewire\Bayar::class);
